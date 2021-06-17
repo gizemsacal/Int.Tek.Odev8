@@ -1,0 +1,108 @@
+body {
+    background-image: url("../files/main.jpg"); /* Arkaplan */
+    background-repeat: no-repeat; /* Arkaplan sayfadan küçük olması durumunda tekrarlamaması */
+    background-attachment: fixed; /* Arkaplan görseli boyutlandırılmasını düzenler */
+    background-size: 100% 100%;   /* Arkaplan görselinin ekrana tam sığdırılması */
+}
+
+header { /* Bilgi yarışması başlığının özellikleri */
+    background-color: #b414a7;
+    font: small-caps bold 12px/30px Georgia, serif;
+    width: 100%;
+    height: 80px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+#seconds-count{ /* Geri sayımın yer aldığı kısmın özellikleri */
+    background-color: #b414a7;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#new-question{ /* Oyunu başlat butonunun özellikleri  */
+    position: fixed;
+    font: small-caps bold 21px/30px Georgia, serif;
+    color: #2b2fb4;
+    background-color: bisque;
+    top: 30px;
+    right: 100px;
+}
+
+.stats { /* Doğru/yanlış ve soru sayısının yer aldığı divin özellikleri */
+    position: fixed;
+    top: 70px;
+    color: black;
+    right: 700px;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#question { /* Sorunun bulunduğu div alanının özellikleri  */
+    position: fixed;
+    font-size: 26px;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    background-color: bisque;
+    border: 5px solid black;
+    top: 100px;
+    bottom: 500px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.btn { /* Oyunu başlat,şıklar ve doğru cevap div'lerinin özellikleri */
+    padding: 0px;
+    font-size: 22px;
+    background-color: bisque;
+    border: 5px solid #b414a7;
+    margin: 0px;
+    font-weight: bold;
+    font-style: oblique;
+}
+#invis{ /* Şıkların yer aldığı divin özellikleri */
+    position: fixed;
+    top:300px;
+    margin:0px;
+    padding: 0px;
+    width: 40%;
+}
+
+#message { /* Doğru/yanlış cevap verdiniz div'inin özellikleri */
+    position: fixed;
+    background-color: bisque;
+    height: 40px;
+    width: 280px;
+    padding: 5px;
+    margin: 5px; /* kenar boşluğu*/
+    border: 5px solid #b414a7; /*sınır katı*/
+    font-size: 30px;
+    top:400px;
+}
+#picture { /* Görsel içeren soruların görsel alanının özellikleri */
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    top:100px;
+    left: 800px;
+}
+
+#video{ /* Videor içeren soruların görsel alanının özellikleri */
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    top:100px;
+    left: 900px;
+}
+
+
+#Reveal{ /* Doğru cevabın gösterildiği alanın özellikleri */
+    position: fixed;
+    top:500px;
+ }

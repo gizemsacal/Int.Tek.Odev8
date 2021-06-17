@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href = "css/quiz.css">
+    <title>Bilgi Yarışması</title>
+</head>
+<body>
+<script src = "js/quiz.js">
+</script>
+<header> Bilgi Yarışması </header> <!-- Arkaplanı mor,ortada yer alan metin -->
+
+<div id = "seconds-count"></div> <!-- Geri sayımın yer aldığı div -->
+<div id = "div1" class = "stats"></div> <!-- Doğru yanlış sayısı -->
+<button class = "btn" id = "new-question">Oyunu Başlat</button> <!-- Oyunu başlat butonu -->
+
+<div class = "container" name="deneme" id="deneme"> <!-- Sorunun ve şıkların yer alacağı div -->
+
+            <div>
+                <div>
+                    <span id = "question"> </span> <!-- Soru metninin yer alacağı span -->
+            <div id="invis"> <!-- Şıkların yer alacağı div -->
+                <!-- Şıklar -->
+                <button type = "button" class = "btn btn-block btn-lg answer" id = "option-1" value = "1">Choice A</button>
+                <button type = "button" class = "btn btn-block btn-lg answer" id = "option-2" value = "2">Choice B</button>
+                <button type = "button" class = "btn btn-block btn-lg answer" id = "option-3" value = "3">Choice C</button>
+                <button type = "button" class = "btn btn-block btn-lg answer" id = "option-4" value = "4">Choice D</button>
+            </div>
+        <div>
+            <h3 id = "message"></h3> <!-- Doğru / yanlış cevap verdin metinleri -->
+            <button class = "btn" id = "Reveal"></button> <!-- Doğru cevabın gösterildiği alan -->
+            <div id = "picture"></div> <!-- Soru görsellerinin yer aldığı div-->
+            <div id = "video"></div>
+        </div> <!-- Soru videolarının yer aldığı div-->
+             </div>
+            </div>
+</div>
+</body>
+</html>
